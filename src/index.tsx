@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './style.css';
 import reportWebVitals from './reportWebVitals';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import Navbar from './Navbar/nav';
-import Home from './Home';
-import Resume from './Resume';
+import Navbar from './components/Navbar/nav';
+import Home from './components/Home';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById("root")!);
 root.render(
@@ -15,6 +16,7 @@ root.render(
       <Route path='/' element={<Home />} />
       <Route path='/resume' element={<Resume />} />
     </Routes>
+    <Footer />
   </Router>
 );
 

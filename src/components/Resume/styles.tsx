@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import ProfileImage from '../assets/images/eu.jpg';
+import ProfileImage from '../../assets/images/eu.jpg';
 
 export const Title = styled.h1`
     color: #fff;

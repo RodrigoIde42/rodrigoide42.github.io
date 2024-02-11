@@ -11,7 +11,7 @@ body {
   flex-direction: column
 }
 
-#root > div:not(#navbar) {
+#root > div:not(#navbar, #footer) {
   max-width: 1300px;
   margin: 0 auto
 }
