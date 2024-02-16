@@ -3,8 +3,8 @@ import { glitchyAnimation1, glitchyAnimation2, glitchyAnimationMobile1, glitchyA
 import { ReactTyped } from "react-typed";
 
 
-export const Content = styled.div`
-    flex: 1;
+export const Content = styled.section`
+    min-height: 100vh;
     display: flex;
     gap: .875rem;
     align-items: center;
@@ -12,8 +12,8 @@ export const Content = styled.div`
     flex-direction: column;
 `
 
-export const GlitchyTitle = styled.h1`
-    color: #cecece;
+export const GlitchyTitle = styled.h1<{ $customText: string }>`
+    color: var(--title-color);
     position: relative;
     font-size: 5rem;
     text-align: center;
@@ -21,8 +21,8 @@ export const GlitchyTitle = styled.h1`
 
     &:before,
     &:after {
-        content: "Hello, I'm Rodrigo!";
-        color: #cecece;
+        content: "${props => props.$customText}";
+        color: var(--title-color);
         text-align: center;
         position: absolute;
         width: 100%;
@@ -65,6 +65,6 @@ export const GlitchyTitle = styled.h1`
 `
 
 export const Text = styled(ReactTyped)`
-    color: #dedede;
+    color: var(--txt-color);
     text-align: center
 ` 

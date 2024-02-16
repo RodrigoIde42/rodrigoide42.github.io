@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <FooterContainer id='footer'>
             <FooterContent>
-                <Copyright>@2024 Rodrigo Ide. All rights reserved</Copyright>
+                <Copyright>@2024 Rodrigo Ide</Copyright>
                 <FooterContact>
                     <FooterLink href='https://www.linkedin.com/in/rodrigo-kenji-ide' target='__blank'><LinkedInLogoIcon /></FooterLink>
                     <FooterLink href='https://github.com/RodrigoIde42' target='__blank'><GitHubLogoIcon /></FooterLink>

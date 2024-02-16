@@ -1,17 +1,20 @@
+html {
+  scroll-behavior: smooth;
+
+  --bg-color: #1f1f1f;
+  --link-highlight-color: #2233ff;
+  --highlight-color: #56f;
+  --title-color: #cecece;
+  --txt-color: #aaa;
+}
+
 body {
-  background-color: #1f1f1f;
+  background-color: var(--bg-color);
   font-family: 'Exo 2', 'sans-serif';
-  color: #fff;
-  margin: 0
+  margin: 0;
 }
 
-#root {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column
-}
-
-#root > div:not(#navbar, #footer) {
+#root > section {
   max-width: 1300px;
   margin: 0 auto
 }

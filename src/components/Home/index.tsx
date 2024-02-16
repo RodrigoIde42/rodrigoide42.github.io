@@ -6,7 +6,7 @@ export default function Home() {
 
     return (
         <Content>
-            <GlitchyTitle>Hello, I'm Rodrigo!</GlitchyTitle>
+            <GlitchyTitle $customText="Hello, I'm Rodrigo!">Hello, I'm Rodrigo!</GlitchyTitle>
             <Text strings={textsToWrite} typeSpeed={50} loop />
         </Content>
     )

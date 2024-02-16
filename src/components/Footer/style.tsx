@@ -7,6 +7,7 @@ export const FooterContainer = styled.div`
     padding: 1rem 0;
     position: fixed;
     bottom: 0;
+    z-index: 2;
     box-shadow: 0 2px 6px #0f0f0f;
 `
 
@@ -29,11 +30,11 @@ export const FooterContact = styled.div`
 `
 
 export const FooterLink = styled.a`
-    color: #cecece;
+    color: var(--title-color);
     text-decoration: none;
     transition: all .2s ease;
 
     &:hover {
-        color: #2233ff
+        color: var(--link-highlight-color)
     }
 `
