@@ -136,7 +136,7 @@ export const Circle = styled.div`
         position: absolute;
         top: 0; left: 0;
         border-radius: 50%;
-        background: radial-gradient(ellipse at center, rgba(30,30,30,0) 0%,rgba(30,30,30,1) 70%,rgba(30,30,30,1) 100%);
+        background: radial-gradient(ellipse at center, rgba(30,30,30,0) 0%,rgba(30,30,30,1) 90%,rgba(30,30,30,1) 100%);
     }
 
     @media screen and (max-width: 1025px) {
@@ -154,8 +154,6 @@ export const Image = styled.img.attrs({
     object-fit: cover;
     border: .5px solid rgba(30, 30, 30, 1);
     border-radius: 50%;
-
-    filter: grayscale(.8)
 `
 
 export const InfoContent = styled.div`
