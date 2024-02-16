@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.017124bb.css",
-    "main.js": "/static/js/main.21c8d0e1.js",
+    "main.css": "/static/css/main.cd5f4e44.css",
+    "main.js": "/static/js/main.87930bfe.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "static/media/RodrigoKenjiIde_Resume.pdf": "/static/media/RodrigoKenjiIde_Resume.f53109a018904ec9d950.pdf",
     "static/media/eu.jpg": "/static/media/eu.14a98d6170589c13fe8e.jpg",
+    "static/media/icons8-naruto.svg": "/static/media/icons8-naruto.cf03209b09c6b1ca62e6c9c1092bff6c.svg",
+    "static/media/icons8-arcade-de-maçã.svg": "/static/media/icons8-arcade-de-maçã.201ea50304b22a72acfdbab2a6992664.svg",
+    "static/media/icons8-código-do-google.svg": "/static/media/icons8-código-do-google.4e42f8e534d0c80107bd58a01078155f.svg",
     "index.html": "/index.html",
-    "main.017124bb.css.map": "/static/css/main.017124bb.css.map",
-    "main.21c8d0e1.js.map": "/static/js/main.21c8d0e1.js.map",
+    "main.cd5f4e44.css.map": "/static/css/main.cd5f4e44.css.map",
+    "main.87930bfe.js.map": "/static/js/main.87930bfe.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.017124bb.css",
-    "static/js/main.21c8d0e1.js"
+    "static/css/main.cd5f4e44.css",
+    "static/js/main.87930bfe.js"
   ]
 }
