@@ -38,3 +38,15 @@ export const FooterLink = styled.a`
         color: var(--link-highlight-color)
     }
 `
+
+export const CopyrightLink = styled.a`
+    color: #6b6b6b;
+    font-size: .75rem;
+    text-decoration: underline;
+    transition: all .2s ease;
+
+    &:hover {
+        color: var(--link-highlight-color);
+        text-shadow: .0625rem 0 .3125rem var(--link-highlight-color)
+    }
+`
