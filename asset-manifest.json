@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cd5f4e44.css",
-    "main.js": "/static/js/main.87930bfe.js",
+    "main.js": "/static/js/main.026dd084.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/RodrigoKenjiIde_Resume.pdf": "/static/media/RodrigoKenjiIde_Resume.f53109a018904ec9d950.pdf",
     "static/media/eu.jpg": "/static/media/eu.14a98d6170589c13fe8e.jpg",
@@ -10,11 +10,11 @@
     "static/media/icons8-código-do-google.svg": "/static/media/icons8-código-do-google.4e42f8e534d0c80107bd58a01078155f.svg",
     "index.html": "/index.html",
     "main.cd5f4e44.css.map": "/static/css/main.cd5f4e44.css.map",
-    "main.87930bfe.js.map": "/static/js/main.87930bfe.js.map",
+    "main.026dd084.js.map": "/static/js/main.026dd084.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd5f4e44.css",
-    "static/js/main.87930bfe.js"
+    "static/js/main.026dd084.js"
   ]
 }
