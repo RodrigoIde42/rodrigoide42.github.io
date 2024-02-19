@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd5f4e44.css",
-    "main.js": "/static/js/main.be428008.js",
+    "main.css": "/static/css/main.bba22339.css",
+    "main.js": "/static/js/main.dd11bdd8.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/RodrigoKenjiIde_Resume.pdf": "/static/media/RodrigoKenjiIde_Resume.f53109a018904ec9d950.pdf",
     "static/media/eu.jpg": "/static/media/eu.14a98d6170589c13fe8e.jpg",
+    "static/media/icons8-chat-bubble.svg": "/static/media/icons8-chat-bubble.1045938aa2fb64c1a75e750768d32dc7.svg",
     "static/media/icons8-naruto.svg": "/static/media/icons8-naruto.cf03209b09c6b1ca62e6c9c1092bff6c.svg",
     "static/media/icons8-arcade-de-maçã.svg": "/static/media/icons8-arcade-de-maçã.201ea50304b22a72acfdbab2a6992664.svg",
+    "static/media/icons8-home.svg": "/static/media/icons8-home.0d0dbe4892d2aceeb061ea871ac98635.svg",
     "static/media/icons8-código-do-google.svg": "/static/media/icons8-código-do-google.4e42f8e534d0c80107bd58a01078155f.svg",
     "index.html": "/index.html",
-    "main.cd5f4e44.css.map": "/static/css/main.cd5f4e44.css.map",
-    "main.be428008.js.map": "/static/js/main.be428008.js.map",
+    "static/media/icons8-gmail.svg": "/static/media/icons8-gmail.b9222bf2908969caa19873ee1eb2e8e1.svg",
+    "main.bba22339.css.map": "/static/css/main.bba22339.css.map",
+    "main.dd11bdd8.js.map": "/static/js/main.dd11bdd8.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd5f4e44.css",
-    "static/js/main.be428008.js"
+    "static/css/main.bba22339.css",
+    "static/js/main.dd11bdd8.js"
   ]
 }
