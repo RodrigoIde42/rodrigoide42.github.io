@@ -16,7 +16,13 @@ interface email {
 
 export default function Contact() {
     const [showArrow, setShowArrow] = useState(true);
-    const [email, setEmail] = useState<email | {}>({});
+    const [email, setEmail] = useState<email>({
+        subject: "",
+        name: "",
+        email: "",
+        message: "",
+        honey: ""
+    });
     const [loading, setLoading] = useState(false);
 
     const props = useSpring({
@@ -71,21 +77,22 @@ export default function Contact() {
     function handleSubmit(e: FormEvent) {
         e.preventDefault();
         axios.defaults.headers.post['Content-Type'] = 'application/json';
-        if (Object.keys(email).length > 0) {
-            let data = email as email;
-
+        if ('subject' in email) {
             setLoading(true);
-            axios.post('https://formsubmit.co/ajax/rodriigo.ide@gmail.com', {
-                _subject: data.subject,
-                name: data.name,
-                email: data.email,
-                message: data.message,
-                _honey: data.honey,
+            axios.post('https://formsubmit.co/ajax/ba2e1267d762d6d9d6292227eb9d7618', {
+                _subject: email.subject,
+                name: email.name,
+                email: email.email,
+                message: email.message,
+                _honey: email.honey,
                 _template: 'table',
             })
             .then(_ => {
                 toast.success("Message sent successfully");
-                setLoading(false)
+                setLoading(false);
+                for (const key in email) {
+                    setEmail(prevEmail => ({...prevEmail, [key]: ""}));
+                }
             })
             .catch(error => toast.error("Something went wrong\n", error.message));
         }
@@ -124,6 +131,7 @@ export default function Contact() {
                         type="text" 
                         name="honey" 
                         onChange={handleChange}
+                        value={email.honey}
                         style={{'display' : 'none'}} 
                     />
                     <HireMeInput
@@ -131,6 +139,7 @@ export default function Contact() {
                         name='name'
                         placeholder='Name'
                         onChange={handleChange}
+                        value={email.name}
                         required
                     />
                     <HireMeInput
@@ -138,12 +147,14 @@ export default function Contact() {
                         name='email'
                         placeholder='Email'
                         onChange={handleChange}
+                        value={email.email}
                         required
                     />
                     <HireMeTextArea
                         name='message'
                         placeholder='Message'
                         onChange={handleTextAreaChange}
+                        value={email.message}
                         rows={6}
                         required
                     />
