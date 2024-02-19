@@ -7,7 +7,7 @@ export const CodingSkillContent = styled.div`
     flex-direction: column;
 
     @media screen and (max-width: 1025px) {
-        max-width: 5.75rem
+        max-width: 5.5rem
     }
 `
 
@@ -31,8 +31,8 @@ export const CirclePercentage = styled.div<{ $percentage: number }>`
     }
 
     @media screen and (max-width: 1025px) {
-        width: 5.75rem;
-        height: 5.75rem;
+        width: 5.5rem;
+        height: 5.5rem;
     }
 `
 
@@ -48,9 +48,9 @@ export const CirclePercentageText = styled.span`
     font-size: 1.25rem;
 
     @media screen and (max-width: 1025px) {
-        width: 5.75rem;
-        height: 5.75rem;
-        line-height: 5.75rem
+        width: 5.5rem;
+        height: 5.5rem;
+        line-height: 5.5rem
     }
 `
 

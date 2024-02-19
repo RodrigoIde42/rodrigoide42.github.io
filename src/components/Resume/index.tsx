@@ -69,7 +69,12 @@ export default function Resume() {
                         <InfoTextComponent desc='Phone:' info='+55 14 93618-0681' />
                         <InfoTextComponent desc='E-mail:' info='rodriigo.ide@gmail.com' />
                     </InfoContent>
-                    <DownloadButton href={resume} download="Rodrigo Kenji Ide Resume" target='__blank' rel='noreferrer'>
+                    <DownloadButton
+                        href={resume} 
+                        download="Rodrigo Kenji Ide Resume" 
+                        target='__blank' 
+                        rel='noreferrer'
+                    >
                         Download CV
                     </DownloadButton>
                 </Content>
