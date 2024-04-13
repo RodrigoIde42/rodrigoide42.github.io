@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.bba22339.css",
-    "main.js": "/static/js/main.e411e5ef.js",
+    "main.js": "/static/js/main.f58772be.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
-    "static/media/RodrigoKenjiIde_Resume.pdf": "/static/media/RodrigoKenjiIde_Resume.f53109a018904ec9d950.pdf",
+    "static/media/RodrigoKenjiIde_Resume.pdf": "/static/media/RodrigoKenjiIde_Resume.f036efd2c89f543759ab.pdf",
     "static/media/eu.jpg": "/static/media/eu.14a98d6170589c13fe8e.jpg",
     "static/media/icons8-chat-bubble.svg": "/static/media/icons8-chat-bubble.1045938aa2fb64c1a75e750768d32dc7.svg",
     "static/media/icons8-naruto.svg": "/static/media/icons8-naruto.cf03209b09c6b1ca62e6c9c1092bff6c.svg",
@@ -13,11 +13,11 @@
     "index.html": "/index.html",
     "static/media/icons8-gmail.svg": "/static/media/icons8-gmail.b9222bf2908969caa19873ee1eb2e8e1.svg",
     "main.bba22339.css.map": "/static/css/main.bba22339.css.map",
-    "main.e411e5ef.js.map": "/static/js/main.e411e5ef.js.map",
+    "main.f58772be.js.map": "/static/js/main.f58772be.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bba22339.css",
-    "static/js/main.e411e5ef.js"
+    "static/js/main.f58772be.js"
   ]
 }
