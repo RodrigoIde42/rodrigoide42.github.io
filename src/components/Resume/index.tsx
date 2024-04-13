@@ -82,7 +82,16 @@ export default function Resume() {
             <ExperienceEducation>
                 <div>
                     <Title $textWidth='7.625rem'>Experience</Title>
-                    <TimeInterval>2022 - Present</TimeInterval>
+                    <TimeInterval $linePosition='bottom'>2024 - Present</TimeInterval>
+                    <ExpEduInfo $borderLeft>
+                        <ExpEduInfoTitle>Internship - Webline Sistemas</ExpEduInfoTitle>
+                        <Paragraph>
+                            I am presently engaged in utilizing the Model-View-Controller (MVC) architecture in PHP. 
+                            My work involves establishing database connections to effectively manage operations in the 
+                            public sector of some regions of Brazil.
+                        </Paragraph>
+                    </ExpEduInfo>
+                    <TimeInterval $linePosition='top'>2022 - 2024</TimeInterval>
                     <ExpEduInfo>
                         <ExpEduInfoTitle>Front-End Developer - Auaha</ExpEduInfoTitle>
                         <Paragraph>
