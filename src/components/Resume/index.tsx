@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import { Image, Paragraph, Title, Wrapper, Content, ArrowIcon, ArrowButton, Circle, InfoContent, DownloadButton, ExperienceEducation, TimeInterval, ExpEduInfo, ExpEduInfoTitle, LanguageSkillsContent, ContentParagraph, Container, CodingSkillsContent, KnowledgesContent, KnowledgeCheckIcon, KnowledgeText, StyledAnimeIcon, InterestContent, StyledProgrammingIcon, StyledGamingIcon } from './styles'
+import { Image, Paragraph, Title, Wrapper, Content, ArrowIcon, ArrowButton, Circle, InfoContent, DownloadButton, ExperienceEducation, TimeInterval, ExpEduInfo, ExpEduInfoTitle, LanguageSkillsContent, ContentParagraph, Container, CodingSkillsContent, KnowledgesContent, KnowledgeCheckIcon, KnowledgeText } from './styles'
 import { GlitchyTitle } from '../Home/style'
 import { animated, useSpring } from 'react-spring'
 import resume from '../../assets/documents/RodrigoKenjiIde_Resume.pdf';
 import InfoTextComponent from './components/InfoText';
 import LanguageSkill from './components/LanguageSkill';
 import CodingSkill from './components/CodingSkill';
-import Interest from './components/Interest';
+// import Interest from './components/Interest';
 
 export default function Resume() {
     const [showArrow, setShowArrow] = useState(true)
@@ -62,7 +62,7 @@ export default function Resume() {
                         exploring languages such as PHP, Java, and MySQL to expand my programming repertoire.  
                     </ContentParagraph>
                     <InfoContent>
-                        <InfoTextComponent desc='Age:' info='21' />
+                        <InfoTextComponent desc='Age:' info='22' />
                         <InfoTextComponent desc='Residence:' info='Brazil' />
                         <InfoTextComponent desc='Freelance:' info='Available' />
                         <InfoTextComponent desc='Address:' info='São Paulo, Brazil' />
@@ -84,7 +84,7 @@ export default function Resume() {
                     <Title $textWidth='7.625rem'>Experience</Title>
                     <TimeInterval $linePosition='bottom'>2024 - Present</TimeInterval>
                     <ExpEduInfo $borderLeft>
-                        <ExpEduInfoTitle>Internship - Webline Sistemas</ExpEduInfoTitle>
+                        <ExpEduInfoTitle>Jr. Programmer - Webline Sistemas</ExpEduInfoTitle>
                         <Paragraph>
                             I am presently engaged in utilizing the Model-View-Controller (MVC) architecture in PHP. 
                             My work involves establishing database connections to effectively manage operations in the 
@@ -102,7 +102,7 @@ export default function Resume() {
                 </div>
                 <div>
                     <Title $textWidth='6.875rem'>Education</Title>
-                    <TimeInterval $linePosition='bottom'>2021 - Present</TimeInterval>
+                    <TimeInterval $linePosition='bottom'>2021 - 2024</TimeInterval>
                     <ExpEduInfo $borderLeft>
                         <ExpEduInfoTitle>Computer Science University - São Paulo</ExpEduInfoTitle>
                         <Paragraph>
@@ -124,7 +124,7 @@ export default function Resume() {
                 <LanguageSkillsContent>
                     <LanguageSkill lang="Portuguese" proficiency={10} />
                     <LanguageSkill lang="English" proficiency={9} />
-                    <LanguageSkill lang="Japanese" proficiency={4} />
+                    <LanguageSkill lang="Japanese" proficiency={5} />
                 </LanguageSkillsContent>
             </Container>
             <Container>
@@ -132,12 +132,12 @@ export default function Resume() {
                 <CodingSkillsContent>
                     <CodingSkill name='ReactJs / JavaScript' percentage={95} />
                     <CodingSkill name='HTML / CSS' percentage={90} />
-                    <CodingSkill name='PHP / MySQL' percentage={40} />
+                    <CodingSkill name='PHP / MySQL' percentage={80} />
                     <CodingSkill name='GraphQL' percentage={80} />
-                    <CodingSkill name='Java' percentage={45} />
+                    <CodingSkill name='Java' percentage={60} />
                 </CodingSkillsContent>
             </Container>
-            <Container>
+            <Container $position='bottom'>
                 <Title $textWidth='7.75rem'>Knowledge</Title>
                 <KnowledgesContent>
                     <KnowledgeText><KnowledgeCheckIcon /> Website development</KnowledgeText>
@@ -146,7 +146,7 @@ export default function Resume() {
                     <KnowledgeText><KnowledgeCheckIcon /> Logic programming</KnowledgeText>
                 </KnowledgesContent>
             </Container>
-            <Container $position='bottom'>
+            {/* <Container $position='bottom'>
                 <Title $textWidth='6.25rem'>Interests</Title>
                 <InterestContent>
                     <Interest 
@@ -169,7 +169,7 @@ export default function Resume() {
                               gaming is my ultimate escape and joy." 
                     />
                 </InterestContent>
-            </Container>
+            </Container> */}
         </>
     )
 }
