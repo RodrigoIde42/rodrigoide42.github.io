@@ -62,7 +62,7 @@ export default function Resume() {
                         exploring languages such as PHP, Java, and MySQL to expand my programming repertoire.  
                     </ContentParagraph>
                     <InfoContent>
-                        <InfoTextComponent desc='Age:' info='22' />
+                        <InfoTextComponent desc='Age:' info='23' />
                         <InfoTextComponent desc='Residence:' info='Brazil' />
                         <InfoTextComponent desc='Freelance:' info='Available' />
                         <InfoTextComponent desc='Address:' info='São Paulo, Brazil' />
@@ -106,7 +106,7 @@ export default function Resume() {
                     <ExpEduInfo $borderLeft>
                         <ExpEduInfoTitle>Computer Science University - São Paulo</ExpEduInfoTitle>
                         <Paragraph>
-                            Currently studying to get a Bachelor's Degree of Computer Science in Centro Universitário Eurípedes de Marília (UNIVEM),
+                            Graduated with a Bachelor's Degree in Computer Science from Centro Universitário Eurípedes de Marília (UNIVEM), 
                             Marília, São Paulo.
                         </Paragraph>
                     </ExpEduInfo>
