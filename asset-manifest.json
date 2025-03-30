@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.bba22339.css",
-    "main.js": "/static/js/main.d094a21c.js",
+    "main.js": "/static/js/main.065ae0da.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
-    "static/media/RodrigoKenjiIde_Resume.pdf": "/static/media/RodrigoKenjiIde_Resume.f97dac09359589cb320c.pdf",
-    "static/media/eu.jpg": "/static/media/eu.14a98d6170589c13fe8e.jpg",
+    "static/media/eu.jpg": "/static/media/eu.30b2524887ab7bad8658.jpg",
+    "static/media/RodrigoKenjiIde_Resume.pdf": "/static/media/RodrigoKenjiIde_Resume.5187d5fce72a36bb405b.pdf",
     "static/media/icons8-chat-bubble.svg": "/static/media/icons8-chat-bubble.1045938aa2fb64c1a75e750768d32dc7.svg",
     "static/media/icons8-naruto.svg": "/static/media/icons8-naruto.cf03209b09c6b1ca62e6c9c1092bff6c.svg",
     "static/media/icons8-arcade-de-maçã.svg": "/static/media/icons8-arcade-de-maçã.201ea50304b22a72acfdbab2a6992664.svg",
@@ -13,11 +13,11 @@
     "index.html": "/index.html",
     "static/media/icons8-gmail.svg": "/static/media/icons8-gmail.b9222bf2908969caa19873ee1eb2e8e1.svg",
     "main.bba22339.css.map": "/static/css/main.bba22339.css.map",
-    "main.d094a21c.js.map": "/static/js/main.d094a21c.js.map",
+    "main.065ae0da.js.map": "/static/js/main.065ae0da.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bba22339.css",
-    "static/js/main.d094a21c.js"
+    "static/js/main.065ae0da.js"
   ]
 }
