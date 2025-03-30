@@ -2,7 +2,7 @@ import React from 'react'
 import { Content, GlitchyTitle, Text } from './style'
 
 export default function Home() {
-    let textsToWrite = ["Aspiring full stack developer, experienced Front-end developer", "Student and Freelancer", "Based in São Paulo - Brazil"]  
+    let textsToWrite = ["Aspiring full stack developer, experienced Front-end developer", "Graduated in Computer Science", "Based in São Paulo - Brazil"]  
 
     return (
         <Content>
