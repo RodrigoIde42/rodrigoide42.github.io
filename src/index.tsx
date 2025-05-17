@@ -8,10 +8,12 @@ import Home from './components/Home';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import ScrollToTop from './utils/scrollToTop';
 
 const root = ReactDOM.createRoot(document.getElementById("root")!);
 root.render(
   <Router>
+    <ScrollToTop />
     <Navbar />
     <Routes>
       <Route path='/' element={<Home />} />
