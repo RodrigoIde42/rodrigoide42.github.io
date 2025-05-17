@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bba22339.css",
-    "main.js": "/static/js/main.065ae0da.js",
+    "main.js": "/static/js/main.4ab070b9.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/eu.jpg": "/static/media/eu.30b2524887ab7bad8658.jpg",
     "static/media/RodrigoKenjiIde_Resume.pdf": "/static/media/RodrigoKenjiIde_Resume.5187d5fce72a36bb405b.pdf",
@@ -13,11 +13,11 @@
     "index.html": "/index.html",
     "static/media/icons8-gmail.svg": "/static/media/icons8-gmail.b9222bf2908969caa19873ee1eb2e8e1.svg",
     "main.bba22339.css.map": "/static/css/main.bba22339.css.map",
-    "main.065ae0da.js.map": "/static/js/main.065ae0da.js.map",
+    "main.4ab070b9.js.map": "/static/js/main.4ab070b9.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bba22339.css",
-    "static/js/main.065ae0da.js"
+    "static/js/main.4ab070b9.js"
   ]
 }
